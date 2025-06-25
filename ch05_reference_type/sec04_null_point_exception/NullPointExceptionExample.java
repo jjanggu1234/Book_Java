@@ -1,0 +1,11 @@
+package ch05_reference_type.sec04_null_point_exception;
+
+public class NullPointExceptionExample {
+    public static void main(String[] args) {
+        int[] intArray = null;
+        //intArray[0] = 10;
+
+        String str = null;
+        System.out.println("총 문자 수: " + str.length() ); // NullPointException
+    }
+}
